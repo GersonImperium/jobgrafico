@@ -1,0 +1,9 @@
+# Configuração para desenvolvimento local com Netlify Dev
+
+[dev]
+  command = "npm run dev" # Comando para iniciar o servidor de desenvolvimento
+  port = 8888 # Porta para o servidor Netlify Dev
+  targetPort = 5173 # Porta do servidor Vite
+  publish = "dist" # Diretório de publicação
+  autoLaunch = true # Abrir navegador automaticamente
+  framework = "#custom" # Usar configuração personalizada
